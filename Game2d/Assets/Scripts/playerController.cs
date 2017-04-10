@@ -25,6 +25,7 @@ public class playerController : MonoBehaviour {
     public float move;
     public bool jump;
     bool fire;
+    
 	// Use this for initialization
 	void Start () {
         myRB = GetComponent<Rigidbody2D>();
