@@ -1,26 +1,21 @@
 fileFormatVersion: 2
-guid: 36a2b371d40bd7344a12060515778136
-timeCreated: 1491844825
+guid: bd52b64e5cf4a0e47afb21b13cdf06ca
+timeCreated: 1491915079
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: diamond_2
-    21300002: diamond_3
-    21300004: diamond_4
-    21300006: diamond_5
-    21300008: diamond_6
-    21300010: diamond_7
-    21300012: diamond_10
-    21300014: diamond_11
-    21300016: diamond_12
-    21300018: diamond_13
-    21300020: diamond_14
-    21300022: diamond_15
-    21300024: diamond_18
-    21300026: diamond_19
-    21300028: diamond_20
-    21300030: diamond_1
-    21300032: diamond_8
+    21300000: diamond_0
+    21300002: diamond_1
+    21300004: diamond_2
+    21300006: diamond_3
+    21300008: diamond_4
+    21300010: diamond_5
+    21300012: diamond_6
+    21300014: diamond_7
+    21300016: diamond_8
+    21300018: diamond_9
+    21300020: diamond_10
+    21300022: diamond_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -95,13 +90,52 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: diamond_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 91
+        width: 115
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond_1
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 7
+        width: 226
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 573
+        width: 565
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
       name: diamond_3
       rect:
         serializedVersion: 2
-        x: 355
-        y: 911
-        width: 113
-        height: 113
+        x: 681
+        y: 7
+        width: 340
+        height: 1017
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,12 +145,12 @@ TextureImporter:
       name: diamond_4
       rect:
         serializedVersion: 2
-        x: 468
-        y: 911
-        width: 107
-        height: 113
+        x: 115
+        y: 91
+        width: 115
+        height: 805
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -124,10 +158,10 @@ TextureImporter:
       name: diamond_5
       rect:
         serializedVersion: 2
-        x: 575
-        y: 911
-        width: 113
-        height: 113
+        x: 231
+        y: 460
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +171,10 @@ TextureImporter:
       name: diamond_6
       rect:
         serializedVersion: 2
-        x: 688
-        y: 911
-        width: 113
-        height: 113
+        x: 347
+        y: 7
+        width: 104
+        height: 565
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,9 +184,35 @@ TextureImporter:
       name: diamond_7
       rect:
         serializedVersion: 2
-        x: 801
-        y: 911
+        x: 456
+        y: 7
+        width: 226
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond_8
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 347
         width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 234
+        width: 114
         height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -163,8 +223,8 @@ TextureImporter:
       name: diamond_10
       rect:
         serializedVersion: 2
-        x: 236
-        y: 798
+        x: 230
+        y: 121
         width: 113
         height: 113
       alignment: 0
@@ -176,101 +236,10 @@ TextureImporter:
       name: diamond_11
       rect:
         serializedVersion: 2
-        x: 349
-        y: 798
+        x: 230
+        y: 8
         width: 113
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: diamond_12
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 798
-        width: 113
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: diamond_13
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 798
-        width: 113
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: diamond_14
-      rect:
-        serializedVersion: 2
-        x: 688
-        y: 798
-        width: 113
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: diamond_15
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 799
-        width: 113
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: diamond_18
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 685
-        width: 113
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: diamond_19
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 685
-        width: 113
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: diamond_20
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 687
-        width: 113
-        height: 113
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

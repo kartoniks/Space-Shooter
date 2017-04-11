@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour {
     // movement variables
-    public float Speed;
     public float maxSpeed;
     Rigidbody2D myRB;
     Animator myAnim;
@@ -26,7 +25,6 @@ public class playerController : MonoBehaviour {
     public float move;
     public bool jump;
     bool fire;
-    
 	// Use this for initialization
 	void Start () {
         myRB = GetComponent<Rigidbody2D>();
@@ -62,9 +60,9 @@ public class playerController : MonoBehaviour {
 
         move = CrossPlatformInputManager.GetAxis("Horizontal");
         myAnim.SetFloat("speed", Mathf.Abs(move));
-        movement.Set(10 * move * Speed, 0);
+        movement.Set(move * maxSpeed,0);
  
-        if(grounded && move!=0 && myRB.velocity.magnitude<maxSpeed)
+        if(grounded && move!=0)
             myRB.AddForce(movement);
 
         if (move > 0 && facingRight == false)

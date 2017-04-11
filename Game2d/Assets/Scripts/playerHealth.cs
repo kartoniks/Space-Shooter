@@ -31,8 +31,7 @@ public class playerHealth : MonoBehaviour {
         {
             damageScreen.color = damagedColor;
         }
-        else if(!
-            damageScreen.IsDestroyed())
+        else if(!damageScreen.IsDestroyed())
         {
             damageScreen.color = Color.Lerp(damageScreen.color, Color.clear, smoothColor * Time.deltaTime);
         }
