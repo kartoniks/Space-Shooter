@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class playerHealth : MonoBehaviour {
 
@@ -59,7 +60,8 @@ public class playerHealth : MonoBehaviour {
     }
     public void makeDead()
     {
-        Instantiate(deathFX, transform.position, transform.rotation);
-        Destroy(gameObject);
+        //Instantiate(deathFX, transform.position, transform.rotation);
+        //Destroy(gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
     }
 }

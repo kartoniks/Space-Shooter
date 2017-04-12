@@ -58,7 +58,10 @@ public class playerController : MonoBehaviour {
         
         myAnim.SetFloat("verticalSpeed", myRB.velocity.y);
 
-        move = CrossPlatformInputManager.GetAxis("Horizontal");
+        //move = CrossPlatformInputManager.GetAxis("Horizontal");
+        move = 7 * Mathf.Sin(AccelerometerInput.GetAxis());
+        if (Mathf.Abs(move) < 0.8)
+            move = 0;
         myAnim.SetFloat("speed", Mathf.Abs(move));
         movement.Set(move * maxSpeed,0);
  
